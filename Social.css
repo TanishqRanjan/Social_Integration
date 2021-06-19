@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	/*font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;*/
+	background-size:cover;
+	background-color:rgba(172,90,92,1.00);
+}
+.login-box{
+	width:280px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	color:rgba(255,255,255,1.00);
+	
+}
+.login-box h1{
+	float:left;
+	font-size:40px;
+	border-bottom: 6px solid #4caf50;
+	margin-bottom: 50px;
+	padding:13px 0;
+}
